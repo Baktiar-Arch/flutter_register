@@ -39,8 +39,7 @@ class HomePage extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 50,
-                backgroundColor: Colors.blue.shade700,
-                child: Icon(Icons.person, size: 50, color: Colors.white),
+                backgroundImage: AssetImage("assets/okayu.png"), 
               ),
               SizedBox(height: 20),
               Text(
